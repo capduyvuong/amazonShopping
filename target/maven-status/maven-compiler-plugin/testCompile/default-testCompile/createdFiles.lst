@@ -1,0 +1,5 @@
+stepDefinition\shoppingCartPageSteps.class
+stepDefinition\signInPageSteps.class
+stepDefinition\homePageSteps.class
+stepDefinition\openBrowserStep.class
+cucumberRunner\amazonShoppingRunner.class

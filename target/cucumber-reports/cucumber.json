@@ -1,0 +1,368 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-09-06T15:39:26.577Z",
+        "line": 2,
+        "name": "User goes to Amazon Australia site and process shopping products",
+        "description": "",
+        "id": "shopping-on-amazon-australia;user-goes-to-amazon-australia-site-and-process-shopping-products",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5278900,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I am on Amazon Australia site",
+            "match": {
+              "location": "stepDefinition.openBrowserStep.iAmOnAmazonAustraliaSite()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2853343200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I go to Home menu",
+            "match": {
+              "location": "stepDefinition.homePageSteps.iGoToHomeMenu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2268970900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I go to deal tab",
+            "match": {
+              "location": "stepDefinition.homePageSteps.iGoToDealTab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 691837400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I sort the Deals on Home Products by “Discount: High to Low”",
+            "match": {
+              "location": "stepDefinition.homePageSteps.iSortTheDealsOnHomeProductsByDiscountHighToLow()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2454167300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I view Deal for second item",
+            "match": {
+              "location": "stepDefinition.homePageSteps.iViewDealForSecondItem()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2967035800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click the link \"click here to see current deals.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"click here to see current deals.\"",
+                  "offset": 17
+                }
+              ],
+              "location": "stepDefinition.homePageSteps.iClickTheLink(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 175994100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I should be on Today\u0027s Deals",
+            "match": {
+              "location": "stepDefinition.homePageSteps.iShouldBeOnTodaySDeals()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 529081700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I sort the Today\u0027s Deals by “Discount: High to Low”",
+            "match": {
+              "location": "stepDefinition.homePageSteps.i_sort_the_deals_on_home_products_by_discount_high_to_low()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6503155600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click View second item",
+            "match": {
+              "location": "stepDefinition.homePageSteps.iClickViewSecondItem()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2759020200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I add 5 items into the cart",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 6
+                }
+              ],
+              "location": "stepDefinition.homePageSteps.iAddItemsIntoTheCart(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1993955600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I go back to Home page",
+            "match": {
+              "location": "stepDefinition.homePageSteps.iGoBackToHomePage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3278088600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I search for \"AAA Batteries\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"AAA Batteries\"",
+                  "offset": 13
+                }
+              ],
+              "location": "stepDefinition.homePageSteps.iSearchForText(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 767362700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I sort the items by “Newest Arrivals”",
+            "match": {
+              "location": "stepDefinition.homePageSteps.iSortTheItemsByNewestArrivals()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1395980100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I click on Newest Arrivals item",
+            "match": {
+              "location": "stepDefinition.homePageSteps.iClickOnNewestArrivalsItem()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4693790000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I add 2 items into the cart",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 6
+                }
+              ],
+              "location": "stepDefinition.homePageSteps.iAddItemsIntoTheCart(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3881436100,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I go to shopping cart",
+            "match": {
+              "location": "stepDefinition.homePageSteps.iGoToShoppingCart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 365639900,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I should see quantities of first item is 5 and second item is 2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 41
+                },
+                {
+                  "val": "2",
+                  "offset": 62
+                }
+              ],
+              "location": "stepDefinition.shoppingCartPageSteps.iShouldSeeQuantitiesOfItemsCorrect(int,int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 318392900,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I should see prices of individual items is displayed",
+            "match": {
+              "location": "stepDefinition.shoppingCartPageSteps.iShouldSeePricesOfIndividualItemsIsDisplayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 270284500,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I see total prices of 5 first item and 2 second item are calculated correctly",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 22
+                },
+                {
+                  "val": "2",
+                  "offset": 39
+                }
+              ],
+              "location": "stepDefinition.shoppingCartPageSteps.iSeeTotalPricesOfFirstItemAndSecondItemAreCalculatedCorrectly(int,int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 510562000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I edit the first item quantity to 3",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 34
+                }
+              ],
+              "location": "stepDefinition.shoppingCartPageSteps.iEditTheFirstItemQuantityTo(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 412329500,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I edit the second item quantity to 1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 35
+                }
+              ],
+              "location": "stepDefinition.shoppingCartPageSteps.iEditTheSecondItemQuantityTo(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 412924000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I delete the first item",
+            "match": {
+              "location": "stepDefinition.shoppingCartPageSteps.iDeleteTheFirstItem()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7110441300,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I click “Proceed to Checkout”",
+            "match": {
+              "location": "stepDefinition.shoppingCartPageSteps.i_click_proceed_to_checkout()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 228927000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I have been navigated to Sign-In screen",
+            "match": {
+              "location": "stepDefinition.signInPageSteps.iHaveBeenNavigatedToSignInScreen()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Shopping on Amazon Australia",
+    "description": "",
+    "id": "shopping-on-amazon-australia",
+    "keyword": "Feature",
+    "uri": "file:src/test/feature/amazonShopping.feature",
+    "tags": []
+  }
+]

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-09-06T15:39:25Z" name="Testng Cucumber Suite" finished-at="2021-09-06T15:40:13Z" duration-ms="48272">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberRunner.amazonShoppingRunner@45ca843]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2021-09-06T15:39:25Z" name="Run All Tests" finished-at="2021-09-06T15:40:13Z" duration-ms="48272">
+      <class name="cucumberRunner.amazonShoppingRunner">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:cucumberRunner.amazonShoppingRunner@45ca843]" started-at="2021-09-06T15:39:20Z" name="setUp" finished-at="2021-09-06T15:39:25Z" duration-ms="5200" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pro]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:cucumberRunner.amazonShoppingRunner@45ca843]" started-at="2021-09-06T15:39:25Z" name="setUpClass" finished-at="2021-09-06T15:39:26Z" duration-ms="779" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberRunner.amazonShoppingRunner@45ca843]" started-at="2021-09-06T15:39:26Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-09-06T15:40:13Z" duration-ms="47256" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User goes to Amazon Australia site and process shopping products"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Shopping on Amazon Australia]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:cucumberRunner.amazonShoppingRunner@45ca843]" started-at="2021-09-06T15:40:13Z" name="tearDownClass" finished-at="2021-09-06T15:40:13Z" duration-ms="196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method is-config="true" signature="generateHTMLReports()[pri:0, instance:cucumberRunner.amazonShoppingRunner@45ca843]" started-at="2021-09-06T15:40:13Z" name="generateHTMLReports" finished-at="2021-09-06T15:40:15Z" duration-ms="1593" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateHTMLReports -->
+        <test-method is-config="true" signature="quitTest()[pri:0, instance:cucumberRunner.amazonShoppingRunner@45ca843]" started-at="2021-09-06T15:40:15Z" name="quitTest" finished-at="2021-09-06T15:40:15Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitTest -->
+      </class> <!-- cucumberRunner.amazonShoppingRunner -->
+    </test> <!-- Run All Tests -->
+  </suite> <!-- Testng Cucumber Suite -->
+</testng-results>

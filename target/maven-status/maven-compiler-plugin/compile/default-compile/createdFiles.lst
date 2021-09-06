@@ -1,0 +1,12 @@
+web\objectPages\SignInPage.class
+core\Config.class
+core\PropertyValues.class
+web\SeleniumWebHelper.class
+core\ANSIColor.class
+web\objectPages\HomePage.class
+core\Log.class
+web\objectPages\ShoppingCartPage.class
+web\UIComponent.class
+core\cucumberHelper\ReportHelper.class
+web\Timer.class
+web\WebBaseTest.class

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Testng Cucumber Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <parameter name="environment" value="pro"/>
+  <parameter name="browserType" value="chrome"/>
+  <test thread-count="5" parallel="tests" name="Run All Tests(failed)" verbose="0">
+    <classes>
+      <class name="cucumberRunner.amazonShoppingRunner">
+        <methods>
+          <include name="setUp"/>
+          <include name="runScenario" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+          <include name="quitTest"/>
+          <include name="generateHTMLReports"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- cucumberRunner.amazonShoppingRunner -->
+    </classes>
+  </test> <!-- Run All Tests(failed) -->
+</suite> <!-- Failed suite [Testng Cucumber Suite] -->
